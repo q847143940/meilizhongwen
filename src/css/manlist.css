@@ -1,0 +1,24 @@
+.childlist1{height: 250px;display: block;overflow: hidden;background: linear-gradient(#d6d3ce, #fcfcfc);}
+.leftlist{width: 170px;height: 250px;overflow: hidden;}
+.leftlist_1{margin-top: 20px;height: 248px;width: 170px;}
+.leftlist_1 li{height: 28px;line-height: 28px;text-align: left;}
+.leftlist_1 a{color: #666;}
+.leftlist_1 a:hover{color: red;}
+#li2 a {color: #93846f;}
+.top3{height: 250px;}
+.rightlist{width: 740px;height: 250px;}
+.rightlist_1{width: 170px;height: 62px;}
+
+.rightlist_1_1{width: 184px;height: 50px;background-color:#93846f ;}
+.rightlist_right{}
+.rightlist_1_1>p{line-height: 20px;color: #fff;}
+.rightlist_right{width:550px ;height:50px ;background-color:#93846f ;display: block;}
+.rightlist_right>p{line-height: 20px;color: #fff;width:200px ;}
+.rightlist_right:hover{background-color:#9F927F;}
+
+/*下左部分列表详情*/
+.bottom_left{height: 1030px;background-color:#fff ;margin-bottom: 20px;}
+.u6{width:170px ;height:314px ;text-align: left;list-style:normal ;}
+.u6 li{line-height: 16px;float: left;float: left;margin-bottom: 4px;}
+.img2{margin-top:44px ;height: 33px;width: 170px;}
+.div1{width:720px ;height:1030px ;overflow: hidden;border-radius:10px ;position: relative;}
