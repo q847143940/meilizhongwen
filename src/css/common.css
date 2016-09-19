@@ -9,6 +9,7 @@ input,select,textarea{outline:none;background:none}
 textarea{resize:none}
 a{text-decoration:none;color:#93846f;}
 a:hover{color: red;}
+input{border: 1px solid #ccc;}
 /*清除浮动*/
 .clearfix:after{content:"";display:block;clear:both;}
 .clearfix{zoom:1}
@@ -20,7 +21,9 @@ a:hover{color: red;}
 .hei{width:950px;margin: 0 auto;}
 .hei1{width:910px;margin: 0 auto;}
 .mrg20{margin-left: 20px;}
+.mrg4{margin-left: 4px;}
 .mrg40{margin-left: 40px;}
+.mrg60{margin-left: 60px;}
 .magTop12{margin-top: 12px;}
 .magTop20{margin-top: 20px;}
 .magTop40{margin-top: 40px;}
@@ -49,7 +52,7 @@ a:hover{color: red;}
 /*border*/
 .border1{border-bottom: 1px dashed #ccc ;}
 .border2{border:1px solid #ccc;} 
-
+.borredio{border-radius:10px ;}
 /*text-aingn*/
 .textleft{text-align: left;}
 .textindent{text-indent: 16px;}
