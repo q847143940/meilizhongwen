@@ -6,7 +6,7 @@
 .u9_1{width: 70px;height: 20px;float: left;}
 .u9_2{width: 166px;height: 18px;float: left;display: block;}
 .img3{overflow: hidden;}
-.zhuce{width: 377px;height: 1124px;}
+.zhuce{width: 377px;height: 1124px;border-bottom: 1px dashed #ccc;}
 .conttext1{width:377px ;height:30px ;line-height:30px ;margin-left: 20px;}
 .conttext2{width: 140px;height:22px ;line-height:22px ;margin-left: 20px;}
 .conttext3{width: 224px;height:20px ;line-height:20px ;}
@@ -14,7 +14,7 @@
 .conttext5{width:366px ;height:25px ;line-height:25px ;}
 .conttext11{width:226px ;height:22px ;line-height:22px ;}
 .conttext12{width:366px ;height:38px ;margin-left: 30px;}
-.conttext6{width:366px ;height:154px ;}
+.conttext6{width:366px ;height:152px ;overflow:scroll;border: 1px solid #ccc;}
 .conttext7{width:366px ;height:122px ;}
 .conttext8{width:160px ;height:120px ;}
 .conttext9{width:388px ;height:1034px;}

@@ -21,6 +21,7 @@ input{border: 1px solid #ccc;}
 .hei{width:950px;margin: 0 auto;}
 .hei1{width:910px;margin: 0 auto;}
 .mrg20{margin-left: 20px;}
+
 .mrg4{margin-left: 4px;}
 .mrg40{margin-left: 40px;}
 .mrg60{margin-left: 60px;}
@@ -28,6 +29,7 @@ input{border: 1px solid #ccc;}
 .magTop20{margin-top: 20px;}
 .magTop40{margin-top: 40px;}
 .marright40{margin-right: 40px;}
+.marright320{margin-right: 320px;}
 .marbottom20{margin-bottom: 20px;}
 .marbottom40{margin-bottom: 40px;}
 .padbottom40(padding-bottom:40px;)
