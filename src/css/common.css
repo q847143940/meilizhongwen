@@ -48,7 +48,7 @@ a:hover{color: red;}
 
 /*border*/
 .border1{border-bottom: 1px dashed #ccc ;}
-
+.border2{border:1px solid #ccc;} 
 
 /*text-aingn*/
 .textleft{text-align: left;}
