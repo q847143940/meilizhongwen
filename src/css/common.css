@@ -27,6 +27,7 @@ input{border: 1px solid #ccc;}
 .mrg60{margin-left: 60px;}
 .magTop12{margin-top: 12px;}
 .magTop20{margin-top: 20px;}
+.magTop15{margin-top: 15px;}
 .magTop40{margin-top: 40px;}
 .marright40{margin-right: 40px;}
 .marright320{margin-right: 320px;}
@@ -55,9 +56,14 @@ input{border: 1px solid #ccc;}
 .border1{border-bottom: 1px dashed #ccc ;}
 .border2{border:1px solid #ccc;} 
 .borredio{border-radius:10px ;}
+
 /*text-aingn*/
 .textleft{text-align: left;}
 .textindent{text-indent: 16px;}
+.text_1{text-align: center;line-height: 54px;}
 
 /*长宽*/
 .wid2{height: 508px;}
+
+/*背景*/
+.background1{background: #f7f7f7;}

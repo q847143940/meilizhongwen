@@ -1,0 +1,19 @@
+.siz1{width: 740px;display: block;min-height:1200px;margin-top: 10px;}
+.siz2{width: 650px;display: block;min-height:1200px;overflow: hidden;margin: 0 auto;}
+.siz3{width: 350px;height: 350px;position: relative;}
+.siz4{width: 300px;height: 350px;float: left;}
+.size5{width: 300px;height: 50px;}
+.position1{position: absolute;}
+.size4>li{float: left;}
+.size6{width: 290px;height: 20px;}
+.size7{width: 660px;height: 38px;line-height: 38px;text-align: left;float: left;}
+.size8{width:660px ;height:96px ;}
+.size9{width:660px ;height:168px ;float: left;text-align: left;}
+.size10{width:660px ;height:24px ;float: left;text-align: left;}
+.size11{width:660px ;height:54px ;display: block;overflow: hidden;background: #f7f7f7;}
+.size7{width: 660px;height: 16px;}
+.size13{width: 650px;height: 25px;background: #f7f7f7;}
+.u1>li{float: left;color: #666;}
+.size12{width: 106px;height: 106px;float: left;border: 1px solid #ccc;}
+
+/*.size14{width: 650px;height: 25px;}*/
