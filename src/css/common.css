@@ -67,3 +67,9 @@ input{border: 1px solid #ccc;}
 
 /*背景*/
 .background1{background: #f7f7f7;}
+
+/**/
+.dis{display: none;}
+/*位置*/
+.rela{position: relative;}
+.abso{position: absolute;}

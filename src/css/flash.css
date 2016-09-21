@@ -1,0 +1,58 @@
+.l2{display: none;background: #fff;position: absolute;text-align:center;z-index: 1;}
+.l3{display: none;background: #fff;position: absolute;text-align:center;z-index: 1;}
+/*.u_lunbo li{position: absolute;top: 0;/*left: -910px;}*/
+.piclist li{position: absolute;width: 910px;
+	height: 360px;float: left;}
+.piclist{
+	width: 910px;
+	height: 360px;
+	position: relative;
+}
+.preBtn{
+	/*left: 244px;
+	background: url(img/icon/pic.png) no-repeat top left;
+	background-position:0 -788px;*/
+	left: 24px;
+    height: 54px;
+    top: 50%;
+    width: 24px;
+    position: absolute;
+    background: url(img/icon/pic.png) no-repeat top left;
+    background-position: 0 -788px;
+}
+.nextBtn{
+	width: 24px;
+    height: 54px;
+    position: absolute;
+    top: 50%;
+   
+    left: 886px;
+    background: url(img/icon/pic.png) no-repeat top left;
+    background-position: 0 -728px;
+}
+.subshow{
+	height: 12px;
+    position: absolute;
+    left: 41%;
+ 	top: 340px;
+    }
+    
+.subshow li{
+    width: 42px;
+    height: 12px;
+    margin-right: 2px;
+    float: left;
+    background: #000;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    cursor: pointer;
+}
+.subshow li.active{
+    background: #f00;
+    }
+#dowebok {
+    animate-duration: 2s;    //动画持续时间
+    animate-delay: 1s;    //动画延迟时间
+    animate-iteration-count: 1;    //动画执行次数
+}
+

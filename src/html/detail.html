@@ -9,6 +9,15 @@
 		<link rel="stylesheet" href="../css/register.css" />
 		<link rel="stylesheet" href="../css/shopcar.css" />
 		<link rel="stylesheet" href="../css/detail.css" />
+		<link rel="stylesheet" href="../css/animate.min.css" />
+		<link rel="stylesheet" href="../css/flash.css" />
+		<link rel="stylesheet" href="../css/jquery.lxzoom.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.0.js"></script>
+		<script type="text/javascript" src="../js/carousel.js" ></script>
+		<script type="text/javascript" src="../js/index.js" ></script>
+		
+		<script type="text/javascript" src="../js/zitiflash.js" ></script>
+		<script type="text/javascript" src="../js/jquery.lxzoom.js" ></script>
 	</head>
 	<body>
 		<!--头部 100%width-->
@@ -18,15 +27,36 @@
 		<!--左边部分-->
 		<div class="top1_1_1">
 			<ul class="u1 fl mrg20">
-				<li class="l1 fl"><a href="#">中国</a><span><img src="../css/img/icon/narrow.gif"></span></li>
+				<li class="l1 fl">
+							<a href="#">中国</a>
+							<span><img src="../css/img/icon/narrow.gif">
+								<ul class="l2">
+									<li><a href="">中国</a></a></li>
+									<li><a href="">美国</a></a></li>
+									<li><a href="">英国</a></a></li>
+									<li><a href="">日本</a></a></li>
+									<li><a href="">韩国</a></a></li>
+									<li><a href="">印度</a></a></li>
+								</ul>
+							</span>
+						</li>
 				<span class="fl">|</span>
-				<li class="l1 fl"><a href="#">简体</a><span><img src="../css/img/icon/narrow.gif"></span></li>
+				<li class="li1 fl">
+							<a href="#">简体</a>
+								<ul class="l3">
+									<li><a href="">简体中文</a></a></li>
+									<li><a href="">英语</a></a></li>
+								</ul>
+							<span>
+								<img src="../css/img/icon/narrow.gif">
+							</span>
+						</li>
 			</ul>
 			<!--右边部分-->
 			<ul class="rtop fr">
-				<li><a href="#">登录</a></li>
+				<li><a href="http://127.0.0.1:8020/%E9%A6%99%E6%B8%AF%E7%8E%AB%E4%B8%BD%E4%B8%AD%E6%96%87%E7%BD%91/src/html/register.html">登录</a></li>
 				<span>|</span>
-				<li><a href="#">注册领取尊享礼品</a></li>
+				<li><a href="http://127.0.0.1:8020/%E9%A6%99%E6%B8%AF%E7%8E%AB%E4%B8%BD%E4%B8%AD%E6%96%87%E7%BD%91/src/html/register.html">注册领取尊享礼品</a></li>
 				<span>|</span>
 				<li><a href="#">我的回馈优惠</a></li>
 				<span>|</span>
@@ -41,14 +71,14 @@
 <div class="top2">
 	<div class="top2_1 hei">
 		<!--英文字母icon-->
-		<span class="s1 fl mrg20"><a href="index.html"><img src="../img/icon1.jpg"></a></span>
+		<span class="s1 fl mrg20"><a href="http://127.0.0.1:8020/%E9%A6%99%E6%B8%AF%E7%8E%AB%E4%B8%BD%E4%B8%AD%E6%96%87%E7%BD%91/index.html"><img src="../img/icon1.jpg"></a></span>
 		<!--购物车-->
 		<div class="shopcar fr">
 			<!--购物车第一行-->
 			<div class="shopcar_1">
 				<!--蝴蝶图片-->
 				<img src="../css/img/icon/footer_logo.jpg" class="icon1 fl">
-				<a href="#" id="a1">我的购物篮</a>
+				<a href="http://127.0.0.1:8020/%E9%A6%99%E6%B8%AF%E7%8E%AB%E4%B8%BD%E4%B8%AD%E6%96%87%E7%BD%91/src/html/shopcar.html" id="a1">我的购物篮</a>
 				<b class="b1 fr whi">1 件货品&nbsp;</b>
 			</div>
 			<div class="shopcar_2 fr"><b class="whi fr">USD 0.00&nbsp;</b></div>
@@ -73,7 +103,7 @@
 		<li><a href="#">芬芳香水</a></li>
 		<li><a href="#">个人护理</a></li>
 		<li><a href="#">母婴护理</a></li>
-		<li><a href="#">男士保养</a></li>
+		<li><a href="http://127.0.0.1:8020/%E9%A6%99%E6%B8%AF%E7%8E%AB%E4%B8%BD%E4%B8%AD%E6%96%87%E7%BD%91/src/html/manshoplist.html">男士保养</a></li>
 		<li><a href="#">礼物套装</a></li>
 		<li><a href="#">天然有机</a></li>
 		<li><a href="#">精选折扣</a></li>
@@ -148,8 +178,11 @@
 		<!--右边的详情页部分 -->
 	<div class="siz1 fl">
 		<div class="siz2">
+			<div id="box" class="lxzoom fl">
+				<img src="../img/19359.jpg" class="siz4 pic2 fl">
+				<span></span>
+			</div>
 			
-			<img src="../img/19359.jpg" class="siz4">
 				<!--<div class="position1">
 					<img src="../img/tag_350px_xmas.png"/>
 				</div>-->
