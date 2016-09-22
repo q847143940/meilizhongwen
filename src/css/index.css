@@ -40,7 +40,7 @@
 .t2 li a:hover{color: #ccc;}
 
 /*头部三 搜索热门搜索等*/
-.t3{height: 34px;}
+.t3{height: 34px;overflow:hidden}
 .t3_1{float: left;margin-top: 10px;}
 .inp1{width:204px;border:1px solid #abadb3;height: 18px;background: #FFF;}
 .sel1{width:200px;color: #ae846f;border:1px solid #abadb3;height: 20px;background: #FFF}
@@ -80,7 +80,7 @@ er-radius:10px ;position: relative;}
 {
 	background:url(img/icon/main_arrow_93846f.gif) no-repeat;
 	display: block;
-	 position:absolute;
+	 /*position:absolute;*/
 	 width:30px; 
 	 height:14px;
 	 margin-left:106px;
@@ -185,3 +185,8 @@ er-radius:10px ;position: relative;}
 .last_3 img{margin-left: 20px;}
 .last_3 p{text-align: center;}
 .copyright{line-height: 18px;margin: 8px;}
+
+.bottom{width: 100%;height: 30px;position: fixed;background: #93846F;bottom: 0;}
+.bottom_1{width: 300px;height: 24px;line-height: 30px;text-align: left;display: block;}
+.bottom_2{width: 72px;height: 14px;line-height: 30px;color: #fff;}
+

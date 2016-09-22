@@ -32,5 +32,15 @@ $(function(){
   	$(this).removeClass('rubberBand');
   })
 
-
+//商品列表货品分类浏览
+  $('.leftlist_1').on('mouseenter','li',function(){
+    	$(this).addClass('animated rubberBand');
+ }).on('mouseleave',function(){
+  	$(this).removeClass('rubberBand');
+  })
+//$('.leftlist_1').on('mouseenter','li',function(){
+//  	$(this).addClass('animated rubberBand');
+// }).on('mouseleave',function(){
+//	$(this).removeClass('rubberBand');
+//})
 });

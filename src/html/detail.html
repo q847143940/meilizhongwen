@@ -12,12 +12,15 @@
 		<link rel="stylesheet" href="../css/animate.min.css" />
 		<link rel="stylesheet" href="../css/flash.css" />
 		<link rel="stylesheet" href="../css/jquery.lxzoom.css" />
+		<script src="../js/json2.js"></script>
 		<script type="text/javascript" src="../js/jquery-1.12.0.js"></script>
 		<script type="text/javascript" src="../js/carousel.js" ></script>
 		<script type="text/javascript" src="../js/index.js" ></script>
-		
 		<script type="text/javascript" src="../js/zitiflash.js" ></script>
 		<script type="text/javascript" src="../js/jquery.lxzoom.js" ></script>
+		<script type="text/javascript" src="../js/timer.js" ></script>
+		<script src="../js/cookie.js"></script>
+		<script src="../js/details.js"></script>
 	</head>
 	<body>
 		<!--头部 100%width-->
@@ -78,7 +81,7 @@
 			<div class="shopcar_1">
 				<!--蝴蝶图片-->
 				<img src="../css/img/icon/footer_logo.jpg" class="icon1 fl">
-				<a href="http://127.0.0.1:8020/%E9%A6%99%E6%B8%AF%E7%8E%AB%E4%B8%BD%E4%B8%AD%E6%96%87%E7%BD%91/src/html/shopcar.html" id="a1">我的购物篮</a>
+				<a href="shopcar.html" id="a1">我的购物篮</a>
 				<b class="b1 fr whi">1 件货品&nbsp;</b>
 			</div>
 			<div class="shopcar_2 fr"><b class="whi fr">USD 0.00&nbsp;</b></div>
@@ -190,11 +193,12 @@
 			<ul class="siz4">
 				<img src="../css/img/icon/b00000691_1.jpg">
 				<li><img src="../css/img/icon/thalgo.gif"</li>
-				<li><img src="../css/img/icon/fuzhi.gif"/></li>
+				<li style="text-align:left"><span class="shopInfo">Sourse Marine 24小时海洋保湿修护霜(中性至干性肤质)</span><p class="price">￥99</p></li>
 				<li class="size6 textleft">
 					<img src="../css/img/icon/add_icon_eng.gif"/>
 					<a href="#">加入「我喜爱的货品名单」</a>
 				</li>
+				<li style="text-align:left"><button class="addshop">加入购物车</button></li>
 			</ul>
 			<!--货物说明 -->
 			<ul class="fl u11">
@@ -229,7 +233,6 @@
 			<div class="size11 fl text_1 magTop20">
 				<a href="#">安全购物保证</a> | <a href="#">购物先注册</a> | <a href="#">货品品质</a> | <a href="#">订购程序</a> | <a href="#">送货方式</a> | <a href="#">入口关税</a> | <a href="#">付款方法</a> | <a href="#">退回货品</a>
 			</div>
-			
 		</div>
 		<!--尾巴-->
 		<div class="end hei1">

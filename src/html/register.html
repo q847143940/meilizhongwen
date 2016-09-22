@@ -8,6 +8,11 @@
 		<link rel="stylesheet" href="../css/manlist.css" />
 		<link rel="stylesheet" href="../css/shopcar.css" />
 		<link rel="stylesheet" href="../css/register.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.0.js" ></script>
+		<script type="text/javascript" src="../js/timer.js" ></script>
+		<script type="text/javascript" src="../js/jquery.validate.min.js" ></script>
+		<script type="text/javascript" src="../js/messages_zh.js" ></script>
+		
 	</head>
 <body>
 <!--头部 100%width-->
@@ -147,191 +152,211 @@
 	<!--注册页面的Logo图-->
 	<img src="../img/welcome_201609.png" class="img3 fl">
 		<div class="wid1 fl shown1 borredio">
-			<div class="wid4 fl mrg20">
-				<div class="wid5 fl">
-					<!--会员登录-->
-					<img src="../css/img/icon/member_login.gif" class="magTop20 mrg40 fl marbottom20"/>
-					<!--<div class="wid3 fl">-->
-					<ul class="u9 fl marbottom40">
-						<li class="u9_1">登录</li>
-						<li>
-							<input type="text" placeholder="电邮地址" class="u9_2 fl"/>
-						</li>
-						<li class="u9_1">密码</li>
-						<li>
-							<input type="password" class="u9_2"/>
-						</li>
-						<li class="u9_1">&nbsp;</li>
-						<li><a href="#" class="u9_2">忘记密码?</a></li>
-						<li class="u9_2">&nbsp;</li>
-						<li>
-							<a href="#" >
-								<img src="../css/img/icon/login_now_01.gif"  class="mrg60"/>
-							</a>
-						</li>
-					</ul>
-					<img src="../css/img/icon/partner_sites_login.gif"  class="fl marbottom20"/>
-					<ul class="u9 fl">
-						<li class="u9_1">&nbsp;</li>
-						<li>
-							<img src="../css/img/icon/paypal_login_gb.png">
-						</li>
-						<li class="u9_1">&nbsp;</li>
-						<li>
-							<img src="../css/img/icon/alipay_115x25.png">
-						</li>
-					</ul>
-					<img src="../img/huikui.gif" class="fl">
-				</div>
-				<!--新会员注册 -->
-				<div class="zhuce fl">
-					<img src="../css/img/icon/new_register.gif" class="magTop20 mrg40 fl marbottom20"/>
-					<ul class="u10 conttext9 fl ">
-						<li class="conttext1"><b>第 1 步 (共 2 个步骤)：</b></li>
-						<li class="conttext1"><b>个人资料</b></li>
-						<li class="conttext2">称谓及姓名</li>
-						<li class="conttext11">
-							<select class="conttext10 fl">
-									<option>先生</option>
-									<option>小姐</option>
-									<option>女士</option>
+				<div class="wid4 fl mrg20">
+					<div class="wid5 fl">
+						<!--会员登录-->
+						<img src="../css/img/icon/member_login.gif" class="magTop20 mrg40 fl marbottom20"/>
+						<!--<div class="wid3 fl">-->
+						<ul class="u9 fl marbottom40">
+							<li class="u9_1">登录</li>
+							<li>
+								<input type="text" placeholder="电邮地址" class="u9_2 fl"/>
+							</li>
+							<li class="u9_1">密码</li>
+							<li>
+								<input type="password" class="u9_2"/>
+							</li>
+							<li class="u9_1">&nbsp;</li>
+							<li><a href="#" class="u9_2">忘记密码?</a></li>
+							<li class="u9_2">&nbsp;</li>
+							<li>
+								<a href="#" >
+									<img src="../css/img/icon/login_now_01.gif"  class="mrg60"/>
+								</a>
+							</li>
+						</ul>
+						<img src="../css/img/icon/partner_sites_login.gif"  class="fl marbottom20"/>
+						<ul class="u9 fl">
+							<li class="u9_1">&nbsp;</li>
+							<li>
+								<img src="../css/img/icon/paypal_login_gb.png">
+							</li>
+							<li class="u9_1">&nbsp;</li>
+							<li>
+								<img src="../css/img/icon/alipay_115x25.png">
+							</li>
+						</ul>
+						<img src="../img/huikui.gif" class="fl">
+					</div>
+					<!--新会员注册 -->
+					<div class="zhuce fl">
+						<img src="../css/img/icon/new_register.gif" class="magTop20 mrg40 fl marbottom20"/>
+						<form class="u10 conttext9 fl ">
+							<p class="conttext1"><b>第 1 步 (共 2 个步骤)：</b></p>
+							<p class="conttext1"><b>个人资料</b></p>
+							<p class="conttext1">
+								<span class="conttext2">称谓及姓名</span>
+								<span class="conttext11">
+								<input type="text" class="conttext13">
+								<select class="conttext10">
+										<option>先生</option>
+										<option>小姐</option>
+										<option>女士</option>
 								</select>
-							<input type="text" class="conttext13">
-							</input>
-						</li>
-						<li class="conttext2">所在地</li>
-						<li><input type="text" class="conttext3"></li>
-						<li class="conttext1"><b>账户登录资料</b></li>
-						<li class="conttext2">电邮地址</li>
-						<li><input type="text" class="conttext3"></li>
-						<li class="conttext2">再次输入电邮地址地址</li>
-						<li><input type="text" class="conttext3"></li>
-						<li class="conttext2">建立密码</li>
-						<li><input type="password" class="conttext3"></li>
-						<li class="conttext2">再次输入密码</li>
-						<li><input type="password" class="conttext3"></li>
-						<img src="../img/66.gif" class="fl"/>
-						<li class="conttext1"><b>我喜爱的护肤品牌</b></li>
-						<select class="conttext4">
-							<option>第一最爱</option>
-							<option>8 x 4</option>
-							<option>A.H.C</option>
-						</select>
-						<select class="conttext4">
-							<option>第二最爱</option>
-							<option>8 x 4</option>
-							<option>A.H.C</option>
-						</select>
-						<select class="conttext4">
-							<option>第三最爱</option>
-							<option>8 x 4</option>
-							<option>A.H.C</option>
-						</select>
-						<input type="password" class="conttext4">
-						<li class="conttext1"><b>我的肤质</b></li>
-						<select class="conttext4">
-							<option>第三最爱</option>
-							<option>8 x 4</option>
-							<option>A.H.C</option>
-						</select>
-						<li class="conttext1"><b>订阅电子通讯</b></li>
-						
-						<li class="mrg20"><input type="checkbox" /></li>
-						<li class="conttext14 mrg4">我希望率先知道 COSME-DE.COM 的最新优惠及新货品上市讯息。</li>
-						<li class="conttext1"><b>使用条款</b></li>
-						<li class="mrg20"><input type="checkbox" /></li>
-						<li class="conttext14 mrg4">我已仔细阅读并同意有关 COSME-DE.COM 的使用条款：</li>
-						<li class="conttext6 mrg20">
-							欢迎阁下使用 COSME-DE.COM﹝「本网站」﹞或注册成为本网站的会员，本网站根据以下使用条款﹝「本条款」﹞向阁下提供服务。这些条款限定了本网站的法律责任，并就阁下对本网站的使用设定了限制。请阁下细阅。
-本条款之最新修订日期为二零一五年十一月二十五日
-
-使用条款
-
-同意接受条款
-
-当阁下使用 COSME-DE.COM﹝本网站﹞或注册成为本网站会员的同时，阁下将会被视作接受本条款之所有条件及规则所规管；所有该等条件及规则﹝包括但不限于 COSME-DE.COM 的私隐政策﹞于此经提述均被包涵在本条款内。本条款适用于 COSME-DE.COM 域名下的所有网页﹝包括但不限于其子域名的所有网页﹞。COSME-DE.COM 亦可能提供其他受不同或附加服务条款限制的服务。所以阁下于使用本网站前请先仔细阅读有关条款。
-
-COSME-DE.COM 有权在任何时间及不需事先通知下而修改／取消／增加／替代任何在此列明的条款，而该条款均对本网站的使用者及注册会员有效力及约束力。藉因阁下每次使用本网站及/或其任何部份，阁下即同意及/或被视作已同意全部关于本条款及条件及被那些由 COSME-DE.COM 随时发出及采用之条款及条件所约束。因此，阁下应定期浏览本页。如在本条款作出修订后仍继续使用本网站，即被视为接受该些修订。
-
-使用本网站
-
-本网站只用作提供讯息作为个人消费的网上购物平台之用，不另作其他用途。阁下不可在未经批准下擅自将本网站内容用作牟利和商业、转售、传送至他人计算机平台或任何介面作大量发放之用途﹝包括但不限于以任何形式对本网站复制、传送、散播、发行、重刊、改写、或以相同的格式或技术再传递、或将其纳入到其他材料中﹞，此行为均属违反此使用条款。
-
-使用数据
-
-本网站所使用的数据报括所有内容、设计、文字、按钮图标、连接、HTML代码、商标、软件、音乐、声音、照片、商品照片、图像、静止图片、移动图片系列、录像、推广或其任何编排或组合、及任何在本网站或网页上出现的其他内容或材料。此所有内容的版权均属于 COSME DE NET COMPANY LIMITED﹝「本公司」﹞，且受香港及国际版权业、商标及任何可引用的知识产权法例所保护。未经本公司允许，阁下均不得以任何方式予以复制、再现、再版、上载、刊登、传输或分发，但阁下可以在任何单一台计算机下载一份数据以仅供阁下进行非商业使用﹝在本条款的范围内，禁止在任何其他网站或连网的计算机环境中使用任何该等数据﹞，条件是阁下必须保持所有的版权和其他专有权声明完好无缺。修改该等数据或任何其他目的而使用该等数据，均侵犯本公司和其他专有权利。
-
-如果阁下从本网站下载软件，则该软件﹝包括该软件所包含或产生的任何文文件、图像以及伴随该软件的数据﹝统称「有关软件」﹞由本公司许可给予阁下。本公司保留对有关软件的全部和完整的拥有权以及有关软件中的所有知识产权。阁下不得对有关软件进行再分发、出售、反编译、逆向工程、反汇编或以其他方式将有关软件简化为人可认知的形式。
-
-使用商标
-
-本公司拥有本网站显示的商标、服务名称及标志﹝「商标」﹞的拥有权。其商标及设计并已根据香港特别行政区法例和其他司法机构注册或进行注册。未经本公司事先书面批准，阁下不得以任何形式展示／使用，尤其不得使用该商标于其他与本网站无关的服务／产品上。任何可引致其他人产生误会的展示行为亦不允许。
-
-第三方网站连结
-
-本网站可能载有超链接，连接到第三方操作的互联网站和资源。这些连结的网站并非由本公司控制。本公司不对这些外部资源或其内容是否可供使用承担责任，也不对该等网站上的任何内容、广告、产品或其他数据予以认可或承担责任。对于因阁下或据称因阁下使用或依赖该等网站上提供的任何内容、货品或服务而引致的任何直接或间接损失或损害赔偿，本公司概不负责，也不承担任何法律责任。任何有关外部连结的问题应发给相关的网站管理人或主持人处理。
-
-资料披露及共享
-
-本网站将所收集有的全部个人资料予以保密，在未得到阁下同意前，不会透露、出售、交易或租用阁下的个人资料予他人或非附属本公司的第三方单位作其市场推广之用。然而本网站可在有需要披露此等资料以达到收集此等资料之目的，或直接与其有关之目的时，向下述人士披露资料：
-
-根据适用法例之下，或回应法庭传令时，本网站会向有关的第三方单位披露所收集得的个人资料﹝包括可识别个人身份的资料﹞。
-根据本网站使用条款需要，本网站有权向提供行政支援、订单处理、网上付款结算、信用参考、维护及防止本网站被不正确使用或其他对本网站营运提供服务的代理人、承办商或服务提供者披露本网站收集的个人资料，或当本网站回应法庭传令或法律程序所需对该人士披露该资料的责任。
-本网站若干服务或客户意见调查需由合作伙伴（如代理公司、提供相关技术服务的公司、运输公司、邮寄公司、提供奖品的公司等）提供或共同提供。爲了向阁下提供此等服务或意见调查，本网站必需与该合作伙伴分享阁下的个人资料。他们有机会获得履行职责所需的个人信息，但不得用于其他用途。
-个别情况下，本网站会共享部份不可识别个人身份的资料予第三方作审计记录本网站点击率或探访量。
-产品数据免责声明
-
-COSME-DE.COM 从世界各地信誉良好的生产商、批发商搜罗优质的护肤品、化妆品及香水商品。唯使用这些护肤品、化妆品及香水商品／健康及美容商品﹝「商品」﹞有一定的使用方法及指引，阁下亦需留意个别商品可能于个别人士身上产生不同的反应或影响，包括但不限于可能引到皮肤或身体的敏感反应。
-
-所有于本网站展示及提供的商品数据﹝不论是展示于本网站的商品说明网页、编辑部落格或其他合作的网站﹞仅供阁下作为参考之用，本网站展示及提供的一切商品数据亦为根据该商品生产商的资料提供。
-
-本网站概不保证阁下通过本网站购买或获取的任何商品信息或其他数据均达到阁下的预期，且准确可靠。本网站概不会对商品的某特定用途之效用性、质量及可靠性作出任何保证及负上任何责任。
-
-本网站可随时更新已列明的商品价格及存库数据而无需事先通知阁下。
-
-免责声明
-
-本网站中的任何信息、服务、商品及数据乃「按原状」提供，且不带有任何类别的明示或默示的保证。在适用法律准许的最大范围内，本公司卸弃所有明示或默示的保证，包括但不限于对不侵权、可商售性和特定目的之适宜性的默示保证。本公司概不保证以下各项：-
-
-数据中包含的功能将不受干扰或没有错误；
-资料将符合阁下的要求；
-缺陷将被纠正；
-本网站或提供本网站的服务器没有病毒或其他有害成分；
-通过本网站传送的讯息将能维持保密。
-就本网站中数据的正确性、准确性、可靠性或其他方面而言，本公司概不对本网站中的数据的使用或使用后果作出任何保证或任何声明。阁下﹝而非本公司﹞应承担所有必要的维修、修理或纠正的全部费用。
-有限责任
-
-阁下使用本网站，需承担完全的风险。COSME DE NET「按原状」提供本网站及其包含的任何数据与内容，没有任何明示的保证。此外，在适用法律准许的最大限度内，对于因以下各项引起的任何直接、间接、附带引起、特殊或后果性的损害赔偿﹝包括但不限于对利润损失、商誉损失、使用损失、数据损失或其他无形损失的损害赔偿﹞，COSME DE NET 均排除所有有关的法律责任，即使 COSME DE NET 已被告知出现上述损害赔偿的可能性亦然：使用或不能使用本网站；或由于通过或自网站购买或取得的任何货品或服务或进行的交易而造成购买替代货品和服务的费用；或阁下传送的讯息或阁下的数据被人擅自查阅或更改。
-
-阁下亦同意，对于在网站上或通过网站出现的其他用户的任何威胁性、诽谤性、淫亵、攻击性或非法行为或对他人权利﹝包括知识产权﹞的任何侵犯，COSME DE NET 均不负责，也不对阁下承担任何法律责任。
-
-如阁下对本网站提供的数据或对本条款不满意，阁下应选择停止使用本网站。
-
-在不局限本条款和条件的任何其他规定的原则下，而且在不能排除任何法律责任保证的范围内，COSME DE NET 的全部法律责任只限于阁下在本网站购买商品或服务所付出的金额。
-
-整份协议
-
-以下的附加政策及说明亦构成本条款完整的一部分，按以下连结可直接查阅有关内容：-
-
-私隐政策
-退货退款政策
-顾客帮助说明
-本网站保留随时修改本条款及上述附加政策及说明，有关整份协议的修改会在本网站内作出通告。阁下有责任熟悉本网站的条款、附加政策及说明。如阁下继续阅览或使用本网站，即被视为已同意该等修改。
-管辖法律
-
-本条款及所有附加政策及说明受香港特别行政区法律所管限，并按香港法律解释。即使具有司法管辖权的法院因任何理由而裁断本条款的任何条文或任何部分不可强制执行，本条款内的其余条文将继续保留完全的效力、合法性或可强制执行性。
-						</li>
-						<li class="conttext1"><b>图像核证</b></li>
-						<li class="conttext7 mrg20">
+							</p>
+							</span>
+							<p class="conttext1">
+								<span class="conttext2">所在地</span>
+								<span><input type="text" class="conttext3"></span>
+							</p>
 							
-						</li>
-						<li><input type="text" class="conttext4" placeholder="图像核正字符"></li>
-						
-						<li class="mrg20">( 请根据大小写输入。 )</li>
-						<a href="#"></a><img src="../css/img/icon/submit_01.gif"  class="fr marright320 magTop20"/></a>
-					</ul>
-					
-				</div>
+							<p class="conttext1"><b>账户登录资料</b></p>
+							<p class="conttext1">
+								<span class="conttext2">电邮地址</span>
+								<span><input type="text" class="conttext3"></span>
+							</p>
+							<p class="conttext1">
+								<span class="conttext2">再次输入电邮地址地址</span>
+								<span><input type="text" class="conttext3"></span>
+							</p>
+							<p class="conttext1">
+								<span class="conttext2">建立密码</span>
+								<span><input type="password" class="conttext3"></span>
+							</p>
+							<p class="conttext1">
+								<span class="conttext2">再次输入密码</span>
+							<span><input type="password" class="conttext3"></span>
+							</p>
+							
+							<p><img src="../img/66.gif"/></p>
+							<p class="tf">
+								<span class="conttext1"><b>我喜爱的护肤品牌</b></span>
+							</p>
+							
+							<p class="conttext1">
+								<select class="conttext4">
+									<option>第一最爱</option>
+									<option>8 x 4</option>
+									<option>A.H.C</option>
+								</select>
+							</p>
+							<p class="conttext1">
+								<select class="conttext4">
+									<option>第二最爱</option>
+									<option>8 x 4</option>
+									<option>A.H.C</option>
+								</select>
+							</p>
+							<p class="conttext1"><input type="password" class="conttext4"></p>
+							
+							<span class="conttext1"><b>我的肤质</b><span>
+							<select class="conttext4">
+								<option>第三最爱</option>
+								<option>8 x 4</option>
+								<option>A.H.C</option>
+							</select>
+							<p class="conttext1"><b>订阅电子通讯</b></p>
+							<p>
+								<span class="mrg20"><input type="checkbox" /></span>
+								<span class="conttext14 mrg4" id="li4">我希望先知道 最新优惠及新货品上市讯息。</span>
+							</p>
+							<p>
+								<span><b>使用条款</b><span>
+							</p>
+							<p>
+								<span class="mrg20 fl"><input type="checkbox" />我已仔细阅读并同意有关 COSME-DE.COM 的使用条款：</span>
+							</p>
+								
+							<!---->
+							<p class="conttext6 mrg20" id="li3">
+								欢迎阁下使用 COSME-DE.COM﹝「本网站」﹞或注册成为本网站的会员，本网站根据以下使用条款﹝「本条款」﹞向阁下提供服务。这些条款限定了本网站的法律责任，并就阁下对本网站的使用设定了限制。请阁下细阅。
+	本条款之最新修订日期为二零一五年十一月二十五日
+	
+	使用条款
+	
+	同意接受条款
+	
+	当阁下使用 COSME-DE.COM﹝本网站﹞或注册成为本网站会员的同时，阁下将会被视作接受本条款之所有条件及规则所规管；所有该等条件及规则﹝包括但不限于 COSME-DE.COM 的私隐政策﹞于此经提述均被包涵在本条款内。本条款适用于 COSME-DE.COM 域名下的所有网页﹝包括但不限于其子域名的所有网页﹞。COSME-DE.COM 亦可能提供其他受不同或附加服务条款限制的服务。所以阁下于使用本网站前请先仔细阅读有关条款。
+	
+	COSME-DE.COM 有权在任何时间及不需事先通知下而修改／取消／增加／替代任何在此列明的条款，而该条款均对本网站的使用者及注册会员有效力及约束力。藉因阁下每次使用本网站及/或其任何部份，阁下即同意及/或被视作已同意全部关于本条款及条件及被那些由 COSME-DE.COM 随时发出及采用之条款及条件所约束。因此，阁下应定期浏览本页。如在本条款作出修订后仍继续使用本网站，即被视为接受该些修订。
+	
+	使用本网站
+	
+	本网站只用作提供讯息作为个人消费的网上购物平台之用，不另作其他用途。阁下不可在未经批准下擅自将本网站内容用作牟利和商业、转售、传送至他人计算机平台或任何介面作大量发放之用途﹝包括但不限于以任何形式对本网站复制、传送、散播、发行、重刊、改写、或以相同的格式或技术再传递、或将其纳入到其他材料中﹞，此行为均属违反此使用条款。
+	
+	使用数据
+	
+	本网站所使用的数据报括所有内容、设计、文字、按钮图标、连接、HTML代码、商标、软件、音乐、声音、照片、商品照片、图像、静止图片、移动图片系列、录像、推广或其任何编排或组合、及任何在本网站或网页上出现的其他内容或材料。此所有内容的版权均属于 COSME DE NET COMPANY LIMITED﹝「本公司」﹞，且受香港及国际版权业、商标及任何可引用的知识产权法例所保护。未经本公司允许，阁下均不得以任何方式予以复制、再现、再版、上载、刊登、传输或分发，但阁下可以在任何单一台计算机下载一份数据以仅供阁下进行非商业使用﹝在本条款的范围内，禁止在任何其他网站或连网的计算机环境中使用任何该等数据﹞，条件是阁下必须保持所有的版权和其他专有权声明完好无缺。修改该等数据或任何其他目的而使用该等数据，均侵犯本公司和其他专有权利。
+	
+	如果阁下从本网站下载软件，则该软件﹝包括该软件所包含或产生的任何文文件、图像以及伴随该软件的数据﹝统称「有关软件」﹞由本公司许可给予阁下。本公司保留对有关软件的全部和完整的拥有权以及有关软件中的所有知识产权。阁下不得对有关软件进行再分发、出售、反编译、逆向工程、反汇编或以其他方式将有关软件简化为人可认知的形式。
+	
+	使用商标
+	
+	本公司拥有本网站显示的商标、服务名称及标志﹝「商标」﹞的拥有权。其商标及设计并已根据香港特别行政区法例和其他司法机构注册或进行注册。未经本公司事先书面批准，阁下不得以任何形式展示／使用，尤其不得使用该商标于其他与本网站无关的服务／产品上。任何可引致其他人产生误会的展示行为亦不允许。
+	
+	第三方网站连结
+	
+	本网站可能载有超链接，连接到第三方操作的互联网站和资源。这些连结的网站并非由本公司控制。本公司不对这些外部资源或其内容是否可供使用承担责任，也不对该等网站上的任何内容、广告、产品或其他数据予以认可或承担责任。对于因阁下或据称因阁下使用或依赖该等网站上提供的任何内容、货品或服务而引致的任何直接或间接损失或损害赔偿，本公司概不负责，也不承担任何法律责任。任何有关外部连结的问题应发给相关的网站管理人或主持人处理。
+	
+	资料披露及共享
+	
+	本网站将所收集有的全部个人资料予以保密，在未得到阁下同意前，不会透露、出售、交易或租用阁下的个人资料予他人或非附属本公司的第三方单位作其市场推广之用。然而本网站可在有需要披露此等资料以达到收集此等资料之目的，或直接与其有关之目的时，向下述人士披露资料：
+	
+	根据适用法例之下，或回应法庭传令时，本网站会向有关的第三方单位披露所收集得的个人资料﹝包括可识别个人身份的资料﹞。
+	根据本网站使用条款需要，本网站有权向提供行政支援、订单处理、网上付款结算、信用参考、维护及防止本网站被不正确使用或其他对本网站营运提供服务的代理人、承办商或服务提供者披露本网站收集的个人资料，或当本网站回应法庭传令或法律程序所需对该人士披露该资料的责任。
+	本网站若干服务或客户意见调查需由合作伙伴（如代理公司、提供相关技术服务的公司、运输公司、邮寄公司、提供奖品的公司等）提供或共同提供。爲了向阁下提供此等服务或意见调查，本网站必需与该合作伙伴分享阁下的个人资料。他们有机会获得履行职责所需的个人信息，但不得用于其他用途。
+	个别情况下，本网站会共享部份不可识别个人身份的资料予第三方作审计记录本网站点击率或探访量。
+	产品数据免责声明
+	
+	COSME-DE.COM 从世界各地信誉良好的生产商、批发商搜罗优质的护肤品、化妆品及香水商品。唯使用这些护肤品、化妆品及香水商品／健康及美容商品﹝「商品」﹞有一定的使用方法及指引，阁下亦需留意个别商品可能于个别人士身上产生不同的反应或影响，包括但不限于可能引到皮肤或身体的敏感反应。
+	
+	所有于本网站展示及提供的商品数据﹝不论是展示于本网站的商品说明网页、编辑部落格或其他合作的网站﹞仅供阁下作为参考之用，本网站展示及提供的一切商品数据亦为根据该商品生产商的资料提供。
+	
+	本网站概不保证阁下通过本网站购买或获取的任何商品信息或其他数据均达到阁下的预期，且准确可靠。本网站概不会对商品的某特定用途之效用性、质量及可靠性作出任何保证及负上任何责任。
+	
+	本网站可随时更新已列明的商品价格及存库数据而无需事先通知阁下。
+	
+	免责声明
+	
+	本网站中的任何信息、服务、商品及数据乃「按原状」提供，且不带有任何类别的明示或默示的保证。在适用法律准许的最大范围内，本公司卸弃所有明示或默示的保证，包括但不限于对不侵权、可商售性和特定目的之适宜性的默示保证。本公司概不保证以下各项：-
+	
+	数据中包含的功能将不受干扰或没有错误；
+	资料将符合阁下的要求；
+	缺陷将被纠正；
+	本网站或提供本网站的服务器没有病毒或其他有害成分；
+	通过本网站传送的讯息将能维持保密。
+	就本网站中数据的正确性、准确性、可靠性或其他方面而言，本公司概不对本网站中的数据的使用或使用后果作出任何保证或任何声明。阁下﹝而非本公司﹞应承担所有必要的维修、修理或纠正的全部费用。
+	有限责任
+	
+	阁下使用本网站，需承担完全的风险。COSME DE NET「按原状」提供本网站及其包含的任何数据与内容，没有任何明示的保证。此外，在适用法律准许的最大限度内，对于因以下各项引起的任何直接、间接、附带引起、特殊或后果性的损害赔偿﹝包括但不限于对利润损失、商誉损失、使用损失、数据损失或其他无形损失的损害赔偿﹞，COSME DE NET 均排除所有有关的法律责任，即使 COSME DE NET 已被告知出现上述损害赔偿的可能性亦然：使用或不能使用本网站；或由于通过或自网站购买或取得的任何货品或服务或进行的交易而造成购买替代货品和服务的费用；或阁下传送的讯息或阁下的数据被人擅自查阅或更改。
+	
+	阁下亦同意，对于在网站上或通过网站出现的其他用户的任何威胁性、诽谤性、淫亵、攻击性或非法行为或对他人权利﹝包括知识产权﹞的任何侵犯，COSME DE NET 均不负责，也不对阁下承担任何法律责任。
+	
+	如阁下对本网站提供的数据或对本条款不满意，阁下应选择停止使用本网站。
+	
+	在不局限本条款和条件的任何其他规定的原则下，而且在不能排除任何法律责任保证的范围内，COSME DE NET 的全部法律责任只限于阁下在本网站购买商品或服务所付出的金额。
+	
+	整份协议
+	
+	以下的附加政策及说明亦构成本条款完整的一部分，按以下连结可直接查阅有关内容：-
+	
+	私隐政策
+	退货退款政策
+	顾客帮助说明
+	本网站保留随时修改本条款及上述附加政策及说明，有关整份协议的修改会在本网站内作出通告。阁下有责任熟悉本网站的条款、附加政策及说明。如阁下继续阅览或使用本网站，即被视为已同意该等修改。
+	管辖法律
+	
+	本条款及所有附加政策及说明受香港特别行政区法律所管限，并按香港法律解释。即使具有司法管辖权的法院因任何理由而裁断本条款的任何条文或任何部分不可强制执行，本条款内的其余条文将继续保留完全的效力、合法性或可强制执行性。
+							</p>
+							<!--<span class="conttext1"><b>图像核证</b></span>
+							<span class="conttext7 mrg20">-->
+								
+							<!--</span>-->
+							<span><input type="text" class="conttext4" placeholder="图像核正字符"></span>
+							
+							<span class="mrg20">( 请根据大小写输入。 )</span>
+							<a href="#"><img src="../css/img/icon/submit_01.gif"  class="fr marright320 magTop20"/></a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -408,5 +433,18 @@ COSME-DE.COM 从世界各地信誉良好的生产商、批发商搜罗优质的�
 			<p>Copyright © 2007 - 2016 Cosme De Net Co. Ltd. 版权所有 不得转载</p>
 			<p>使用本网站即表示接受有关的使用条款及私隐政策。1</p>
 		</div>
+		<!--固定在底部的框-->
+		<ul class="bottom">
+			
+			<li class="bottom_1 fl whi"></li>
+			<div class="shopcar_1_1 fr">
+						<!--蝴蝶图片-->
+						<img src="src/css/img/icon/footer_logo.jpg" class="icon1 fl">
+						<a href="src/html/shopcar.html" id="a1">我的购物篮</a>
+						<b class="b1 fr whi">0 件货品&nbsp;</b>
+					</div>
+			<li class="bottom_2 fr textlef"><a href="#" class="whi">注册	</a></li>
+			<li class="bottom_2 fr"><a href="#" class="whi">我的优惠&nbsp;|</a></li>
+		</ul>
 	</body>
 </html>

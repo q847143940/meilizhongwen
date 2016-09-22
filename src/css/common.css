@@ -34,8 +34,8 @@ input{border: 1px solid #ccc;}
 .marbottom20{margin-bottom: 20px;}
 .marbottom40{margin-bottom: 40px;}
 .padbottom40(padding-bottom:40px;)
-
-
+.error{color:red;}
+.tf{text-align: left;}
 .shown{filter:Alpha(opacity=60);box-shadow:5px 5px 10px 5px rgba(0,0,0,0.5);}
 .shown1{filter:Alpha(opacity=60);box-shadow:5px 5px 10px 5px rgba(0,0,0,0.5);}
 .shown2{filter:Alpha(opacity=60);box-shadow:5px 1px 10px 10px rgba(0,0,0,0.5) inset;}

@@ -4,12 +4,14 @@
 .wid5{width: 279px;height: 1124px;border-right: 1px dashed #ccc;}
 .u9{width: 240px;height: 90px;line-height: 20px;text-align: left;}
 .u9_1{width: 70px;height: 20px;float: left;}
+.u9 li{display: inline-block;}
 .u9_2{width: 166px;height: 18px;float: left;display: block;}
 .img3{overflow: hidden;}
-.zhuce{width: 377px;height: 1124px;border-bottom: 1px dashed #ccc;}
-.conttext1{width:377px ;height:30px ;line-height:30px ;margin-left: 20px;}
+.zhuce{width: 400px;height: 1124px;border-bottom: 1px dashed #ccc;}
+.conttext1{width:377px ;height:30px ;line-height:30px ;margin-left: 20px;text-align: left;}
+.check1{width: 200px;height:22px ;line-height:22px ;float: right;}
 .conttext2{width: 140px;height:22px ;line-height:22px ;margin-left: 20px;}
-.conttext3{width: 224px;height:20px ;line-height:20px ;}
+.conttext3{width: 224px;height:20px ;line-height:20px ;float: right;}
 .conttext4{width: 348px;height:20px ;line-height:20px ;margin-left: 20px;}
 .conttext5{width:366px ;height:25px ;line-height:25px ;}
 .conttext11{width:226px ;height:22px ;line-height:22px ;}
@@ -18,7 +20,12 @@
 .conttext7{width:366px ;height:122px ;}
 .conttext8{width:160px ;height:120px ;}
 .conttext9{width:388px ;height:1034px;}
-.conttext10{width:60px ;height:22px;}
-.conttext13{width:152px ;height:20px;border: 1px solid #ccc;}
+.conttext10{width:60px ;height:22px;float: right;}
+.conttext13{width:152px ;height:20px;border: 1px solid #ccc;float: right;}
 .conttext14{width:324px ;height:36px ;line-height:20px ;}
-.u10>li{float: left;text-align: left;}
+.u10>span{float: left;text-align: left;height: 22px;}
+#li3{height:156px;}
+#li4{height:36px;}
+
+/*fieldest*/
+.p2{width: 370px;height: 22px;}
