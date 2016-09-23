@@ -51,8 +51,8 @@
     background: #f00;
     }
 #dowebok {
-    animate-duration: 2s;    //动画持续时间
-    animate-delay: 1s;    //动画延迟时间
+    animate-duration: 10s;    //动画持续时间
+  	/*animate-delay: 2s;*/    //动画延迟时间
     animate-iteration-count: 1;    //动画执行次数
 }
 

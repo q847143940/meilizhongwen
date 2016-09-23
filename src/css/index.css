@@ -28,6 +28,7 @@
 .t1 a{color:yellow}
 
 
+
 /*背景图*/
 .background{background:url(../img/website_bg_Sep.jpg) no-repeat ;}
 
@@ -69,7 +70,11 @@
 .banner{width: 910px;height: 360px;/*overflow: hidden;*/bord
 er-radius:10px ;position: relative;}
 .icon2{border-radius:10px ;}
-
+/*.icon2:hover{
+	-webkit-transform:scale(1.5) rotate(10deg); 
+-moz-transform:scale(1.5) rotate(10deg); 
+-o-transform:scale(1.5) rotate(10deg); 
+}*/
 /*u3*/
 .u3{background: #93846f;height: 50px;width: 910px;margin: 0 auto;}
 .u3 li{width: 226px;height: 50px;float: left;line-height: 18px;position: relative;}
@@ -157,7 +162,7 @@ er-radius:10px ;position: relative;}
 /*.end img{width: 612px;height: 30px;}*/
 
 /*网站地图*/
-.end1{height: 86px;border-top: 1px dashed #ccc;border-bottom:1px dashed #ccc ;display: block;}
+.end1{height: 86px;border-top: 1px dashed #ccc;border-bottom:1px dashed #ccc ;display:inline-block}
 .end1_1_4 li{width: 420px;height: 16px;}
 .end1_1{width: 848px;height: 80px;padding-top: 8px;margin: 0 auto;}
 .end1_1_1{width: 128px;height: 78px;text-align: right;}

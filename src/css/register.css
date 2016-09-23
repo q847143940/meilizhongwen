@@ -1,5 +1,6 @@
 .wid1{width: 720px;height: 1146px;}
 .wid3{width: 281px;height:1124px ;}
+.wid3_1{width: 281px;height:30px ;}
 .wid4{width: 688px;height: 1124px;display: block;}
 .wid5{width: 279px;height: 1124px;border-right: 1px dashed #ccc;}
 .u9{width: 240px;height: 90px;line-height: 20px;text-align: left;}
@@ -8,10 +9,10 @@
 .u9_2{width: 166px;height: 18px;float: left;display: block;}
 .img3{overflow: hidden;}
 .zhuce{width: 400px;height: 1124px;border-bottom: 1px dashed #ccc;}
-.conttext1{width:377px ;height:30px ;line-height:30px ;margin-left: 20px;text-align: left;}
+.conttext1{width:377px ;height:30px ;line-height:30px ;margin-left: 20px;text-align: left;float: left;}
 .check1{width: 200px;height:22px ;line-height:22px ;float: right;}
 .conttext2{width: 140px;height:22px ;line-height:22px ;margin-left: 20px;}
-.conttext3{width: 224px;height:20px ;line-height:20px ;float: right;}
+.conttext3{width: 150px;height:20px ;line-height:20px ;}
 .conttext4{width: 348px;height:20px ;line-height:20px ;margin-left: 20px;}
 .conttext5{width:366px ;height:25px ;line-height:25px ;}
 .conttext11{width:226px ;height:22px ;line-height:22px ;}
@@ -20,12 +21,13 @@
 .conttext7{width:366px ;height:122px ;}
 .conttext8{width:160px ;height:120px ;}
 .conttext9{width:388px ;height:1034px;}
-.conttext10{width:60px ;height:22px;float: right;}
-.conttext13{width:152px ;height:20px;border: 1px solid #ccc;float: right;}
+.conttext10{width:60px ;height:22px;}
+.conttext13{width:152px ;height:20px;border: 1px solid #ccc;}
 .conttext14{width:324px ;height:36px ;line-height:20px ;}
 .u10>span{float: left;text-align: left;height: 22px;}
 #li3{height:156px;}
 #li4{height:36px;}
-
+.sub{width:45px;height: 21px;border-radius:4px ;background: url(img/icon/submit_01.gif);cursor:pointer}
 /*fieldest*/
 .p2{width: 370px;height: 22px;}
+.error{color:#f00;}
