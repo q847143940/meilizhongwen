@@ -19,5 +19,8 @@ $(function(){
 	})
 	
 	
-
+//回到顶部
+$('#turntop').on('click',function(){
+		$('html,body').animate({scrollTop:0});
+})
 })//function的结尾

@@ -5,25 +5,54 @@
 		<title>我的购物篮</title>
 		<link rel="stylesheet" href="../css/common.css" />
 		<link rel="stylesheet" href="../css/index.css" />
+		<link rel="stylesheet" href="../css/manlist.css" />
 		<link rel="stylesheet" href="../css/shopcar.css" />
+		<link rel="stylesheet" href="../css/register.css" />
 		<link rel="stylesheet" href="../css/animate.min.css" />
-		<script type="text/javascript" src="../js/jquery-1.12.0.js"></script>
-		<script type="text/javascript" src="../js/shopcart.js"></script>
-		<script type="text/javascript" src="../js/cookie.js"></script><br />
+		<link rel="stylesheet" href="../css/flash.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.0.js" ></script>
 		<script type="text/javascript" src="../js/timer.js" ></script>
+		<script type="text/javascript" src="../js/index.js" ></script>
+		<script type="text/javascript" src="../js/jquery.validate.js" ></script>
+		<script type="text/javascript" src="../js/messages_zh.js" ></script>
+		<script type="text/javascript" src="../js/yanzheng.js" ></script>
+		<script src="../js/cookie.js"></script>
+		<script type="text/javascript" src="../js/json2.js" ></script>
+		<script type="text/javascript" src="../js/shopcart.js"></script>
 		<script type="text/javascript" src="../js/zitiflash.js" ></script>
 	</head>
 	<body>
-		<!--头部 100%width-->
+	<!--头部 100%width-->
 		<div class="top1">
 			<!--头分2部分，一部分100%，包含top1_1_1为950px,居中-->
 			<div class="top1_1 hei">
 				<!--左边部分-->
 				<div class="top1_1_1">
 					<ul class="u1 fl mrg20">
-						<li class="l1 fl"><a href="#">中国</a><span><img src="../css/img/icon/narrow.gif"></span></li>
+						<li class="l1 fl">
+							<a href="#">中国</a>
+							<span><img src="../css/img/icon/narrow.gif">
+								<ul class="l2">
+									<li><a href="">中国</a></a></li>
+									<li><a href="">美国</a></a></li>
+									<li><a href="">英国</a></a></li>
+									<li><a href="">日本</a></a></li>
+									<li><a href="">韩国</a></a></li>
+									<li><a href="">印度</a></a></li>
+								</ul>
+							</span>
+						</li>
 						<span class="fl">|</span>
-						<li class="l1 fl"><a href="#">简体</a><span><img src="../css/img/icon/narrow.gif"></span></li>
+						<li class="li1 fl">
+							<a href="#">简体</a>
+								<ul class="l3">
+									<li><a href="">简体中文</a></a></li>
+									<li><a href="">英语</a></a></li>
+								</ul>
+							<span>
+								<img src="../css/img/icon/narrow.gif">
+							</span>
+						</li>
 					</ul>
 					<!--右边部分-->
 					<ul class="rtop fr">
@@ -297,14 +326,10 @@
 		<!--固定在底部的框-->
 		<ul class="bottom">
 			<li class="bottom_1 fl whi"></li>
-			<div class="shopcar_1_1 fr">
-						<!--蝴蝶图片-->
-						<img src="src/css/img/icon/footer_logo.jpg" class="icon1 fl">
-						<a href="src/html/shopcar.html" id="a1">我的购物篮</a>
-						<b class="b1 fr whi">0 件货品&nbsp;</b>
-					</div>
-			<li class="bottom_2 fr textlef"><a href="#" class="whi">注册	</a></li>
-			<li class="bottom_2 fr"><a href="#" class="whi">我的优惠&nbsp;|</a></li>
+			<li class="bottom_2 fr"><a href="#" class="whi" id="turntop">回到顶部↑&nbsp;</a></li>
+			<li class="bottom_2 fr"><a href="shopcar.html" class="whi">我的购物篮&nbsp;</a></li>
+			<li class="bottom_2 fr textlef"><a href="register.html" class="whi">注册	</a></li>
+			
 		</ul>
 	</body>
 </html>

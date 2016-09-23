@@ -52,11 +52,11 @@ $(function(){
   	$(this).removeClass('flipInX');
   })
   //列表页大div列表
- $('.div1').on('mousedown',function(){
-    	$(this).addClass('animated flipInX');
- }).on('mouseleave',function(){
-  	$(this).removeClass('flipInX');
-  })
+// $('.div1').on('mousedown',function(){
+//  	$(this).addClass('animated flipInX');
+// }).on('mouseleave',function(){
+//	$(this).removeClass('flipInX');
+//})
  //优惠红色框
  $('.cheaper').on('mousedown',function(){
     	$(this).addClass('animated rubberBand');
