@@ -23,4 +23,25 @@ $(function(){
 $('#turntop').on('click',function(){
 		$('html,body').animate({scrollTop:0});
 })
+
+
+//主页显示登录的名字
+
+var user=JSON.parse($.cookie('user'))//数组，对象
+var user1 = $.cookie('user');
+if(user1==null)
+{
+	user1=[]//字符串
+}
+else
+{
+	$('.come').html(user[0].username)
+}
+	
+
+
+//console.log(user[0].username)
+//console.log($.cookie('user[0].username')
+//console.log($.cookie('user.username'))
+//console.log($.cookie('user'))
 })//function的结尾

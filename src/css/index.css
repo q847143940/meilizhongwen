@@ -195,3 +195,5 @@ er-radius:10px ;position: relative;}
 .bottom_1{width: 300px;height: 24px;line-height: 30px;text-align: left;display: block;}
 .bottom_2{width: 72px;height: 14px;line-height: 30px;color: #fff;}
 
+/*添加主页显示注册的cookie名字*/
+.li1_2{width: 90px;height: 20px;float: right;line-height: 28px;display: block;margin-top: 1px;}

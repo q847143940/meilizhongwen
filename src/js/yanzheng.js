@@ -61,11 +61,13 @@ $(function(){
 //	           				location.go(0);
 							location.href="../../index.html";
      					}
-        }    
+  					
+        			}    
      				
 
      				
 				});
+				
 				
 
 				$('.login').on('click',function(){
