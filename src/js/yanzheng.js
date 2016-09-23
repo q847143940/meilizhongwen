@@ -59,7 +59,7 @@ $(function(){
 	           				$.cookie('user', JSON.stringify(user), {expires: 7,path:'/'});
 	           				alert('注册成功');
 //	           				location.go(0);
-							location.href="../../index.html";
+//							location.href="../../index.html";
      					}
   					
         			}    
@@ -80,6 +80,7 @@ $(function(){
 					for(var i = 0;i<user.length;i++){
 						if(username==user[i].username&&pwd==user[i].password){
 							count ++;
+							console.log(count)
 //							e.preventDefault()
 							location.href="../../index.html";
 						}

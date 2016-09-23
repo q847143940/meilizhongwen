@@ -39,7 +39,10 @@ else
 }
 	
 
-
+$('.buy').on('click',function(){
+	alert("请先登录后再购买")
+	location.href='register.html'
+})
 //console.log(user[0].username)
 //console.log($.cookie('user[0].username')
 //console.log($.cookie('user.username'))
